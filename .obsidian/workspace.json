@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "6c3ad8f763220e02",
+    "type": "split",
+    "children": [
+      {
+        "id": "c2c1f8d071cbd807",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "83af866fb44f826e",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Primary Release Cycle.canvas",
+                "viewState": {
+                  "x": -429,
+                  "y": 18,
+                  "zoom": -1
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Primary Release Cycle"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "eec24d26c07265c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "f02d408d981b428b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "416e8018370309c6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTime"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4380a1e061118adc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "807fa69bce18a434",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 394.5
+  },
+  "right": {
+    "id": "2125d76beaaa71e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "43c15bbe13a29a83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6bdac057b5fdd2f1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "e5cfba087bd46066",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "4ca1b11fa131b3ae",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "63ee8dbedebed1e3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "83af866fb44f826e",
+  "lastOpenFiles": [
+    "assets/deployment dgm.png",
+    "assets/Deployment dgm UML.md",
+    "assets/interaction uml.md",
+    "assets/state.png",
+    "assets/State UML.md",
+    "assets/UML diagram (Plant UML).md",
+    "assets/class dgm uml.png",
+    "assets/usecase.png",
+    "assets/use case UML.md",
+    "assets/interaction dgm.png",
+    "Primary Release Cycle.canvas",
+    "Requirements.md",
+    "Release cycle.md",
+    "Max Ray KPIs.md",
+    "Primary Requirements.md",
+    "Secondary Requirements.md",
+    "System Infra Requirements.md",
+    "Other essential requirements.md",
+    "System Admin and Super Admin Requirement.md",
+    "Requirements for Admins and Super Admin.md",
+    "Requirements for Paramedics.md",
+    "Security and Compliance requirement.md",
+    "Requirements for Patients.md",
+    "Requirements for doctors.md",
+    "create a link.md",
+    "System infra requirement.md"
+  ]
+}
