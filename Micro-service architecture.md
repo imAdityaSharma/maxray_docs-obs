@@ -30,7 +30,7 @@ To design the MaxRay healthcare platform using a **microservices architecture**,
 8. **Admin Service**:
     - Handles user management, system monitoring, and audit log tracking.
     - Provides tools for admins to configure platform settings.
-9. **Audit and Logging Service**:
+9. **Audit and Logging Service**: (conceptual for now)
     - Tracks all user actions and system events for compliance and debugging.
 10. **Notification Service**:
     - Sends real-time notifications, reminders, and alerts to users.
@@ -43,16 +43,16 @@ To design the MaxRay healthcare platform using a **microservices architecture**,
 #### **Backend Technologies**
 
 1. **Programming Languages**:
-    - Python (e.g., Flask/FastAPI/Django) or Node.js for microservice development.
+    - Python ( Flask/Django) for microservice development.
     - Java/Kotlin for teleconferencing or critical services requiring high performance.
 2. **Database**:
     - **PostgreSQL**: For relational data (e.g., user profiles, consultations).
-    - **MongoDB**: For semi-structured data (e.g., X-ray image metadata, logs).
+    - **noSQL**: For semi-structured data (e.g., X-ray image metadata, logs).
     - **Redis**: For caching and session storage.
 3. **Object Storage**:
     - **AWS S3** or **Google Cloud Storage**: For storing X-ray images and other large files.
 4. **Message Broker**:
-    - **RabbitMQ** or **Apache Kafka**: For asynchronous communication between microservices (e.g., consultation updates, notifications).
+    - **Apache Kafka**: For asynchronous communication between microservices (e.g., consultation updates, notifications).
 #### **Frontend Technologies**
 1. **Mobile Apps**:
     - Flutter: For cross-platform mobile app development.
@@ -64,8 +64,8 @@ To design the MaxRay healthcare platform using a **microservices architecture**,
 2. **Orchestration**:
     - Kubernetes: For managing containerized services and ensuring scalability.
 3. **API Gateway**:
-    - Kong API Gateway or AWS API Gateway: For routing, monitoring, and securing API requests.
-4. **Monitoring and Logging**:
+    - Kong/tyk API Gateway: For routing, monitoring, and securing API requests.
+4. **Monitoring and Logging**: (conceptual to for now)
     - Prometheus + Grafana: For real-time monitoring and visualization.
     - ELK Stack (Elasticsearch, Logstash, Kibana): For log aggregation and analysis.
 5. **CI/CD**:
@@ -114,13 +114,13 @@ To design the MaxRay healthcare platform using a **microservices architecture**,
    |
    |---> [Patient Service] <---> [PostgreSQL]
    |---> [Doctor Service]  <---> [PostgreSQL]
-   |---> [Paramedic Service] <---> [MongoDB]
-   |---> [X-ray Service] <---> [AWS S3]
+   |---> [Paramedic Service] <---> [noSQL]
+   |---> [X-ray Service] <---> [AWS S3 or similar object storage]
    |---> [Teleconference Service]
    |---> [Notification Service]
    |---> [Admin Service]
    |---> [Analytics Service] <---> [PostgreSQL/Redis]
-   |---> [Audit and Logging Service] <---> [MongoDB/ELK Stack]
+   |---> [Audit and Logging Service] <---> [noSQL/ELK Stack]
 ```
 
 ---
@@ -136,16 +136,3 @@ To design the MaxRay healthcare platform using a **microservices architecture**,
 4. **Load Balancing**:
     - Use a load balancer (e.g., AWS ALB) to distribute incoming traffic across service instances.
 ---
-### **6. Advantages of This Design**
-- **Modularity**: Each microservice handles a specific task, making development and maintenance easier.
-- **Scalability**: Services can be independently scaled based on their usage patterns.
-- **Resilience**: Failures in one service (e.g., Notification Service) don’t impact others (e.g., Teleconference Service).
-- **Technology Diversity**: Each service can use the most appropriate technology for its requirements (e.g., Python for ML-based analytics, Node.js for real-time interactions).
----
-### **Next Steps**
-1. Finalize the API contracts between micro services (REST/gRPC endpoints).
-2. Begin containerizing individual services using Docker.
-3. Set up Kubernetes for orchestration.
-4. Develop proof-of-concept microservices (e.g., Authentication and Patient Service).
-5. Monitor and test the integration with sample data.
-Let me know if you'd like to start with specific micro services or set up the deployment environment!
