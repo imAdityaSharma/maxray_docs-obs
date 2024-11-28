@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Requirements/PrimaryRequirements.md",
-                "mode": "source",
+                "file": "Requirements/OtherRequirements.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PrimaryRequirements"
+              "title": "OtherRequirements"
             }
           }
         ]
@@ -162,12 +162,12 @@
   },
   "active": "83af866fb44f826e",
   "lastOpenFiles": [
+    "Requirements/SecondaryRequirements.md",
     "Requirements/AllRequirements.md",
+    "Requirements/PrimaryRequirements.md",
     "Requirements/OtherRequirements.md",
     "Requirements/RequirementsDoctors.md",
-    "Requirements/PrimaryRequirements.md",
     "Requirements/SystemInfraRequirements.md",
-    "Requirements/SecondaryRequirements.md",
     "Requirements/RequirementsPatients.md",
     "Requirements/SystemAdmin&SuperAdminRequirement.md",
     "Requirements/Security&ComplianceRequirement.md",

@@ -8,4 +8,4 @@ all documents related are stored here.
 2. [All Requirements](/Requirements/AllRequirements.md)
 3. [All UML diagrams](/UMLs/UMLdiagrams.md)
 4. [Micro Service Architecture](/MicroServiceArchitecture.md)
-5. [Release Cycle](/ReleaseCycle)
+5. [Release Cycle](/ReleaseCycle.md)
