@@ -6,40 +6,84 @@
       {
         "id": "c2c1f8d071cbd807",
         "type": "tabs",
+        "dimension": 66.1849710982659,
         "children": [
           {
             "id": "83af866fb44f826e",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Primary Release Cycle.canvas",
-                "viewState": {
-                  "x": -429,
-                  "y": 18,
-                  "zoom": -1
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Primary Release Cycle"
-            }
-          },
-          {
-            "id": "c92f0f4fea138b73",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Micro-service architecture.md",
+                "file": "MICRO-SERVICES /Micro-services.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Micro-service architecture"
+              "title": "Micro-services"
             }
+          },
+          {
+            "id": "9037ea346dff15e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MICRO-SERVICES /Micro-services.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Micro-services"
+            },
+            "group": "39bb92e99083f2dd"
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "97487418fee53941",
+        "type": "tabs",
+        "dimension": 33.81502890173411,
+        "children": [
+          {
+            "id": "c6c6b276f56e0d08",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "MICRO-SERVICES /Micro-services.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0.5,
+                  "nodeSizeMultiplier": 1.325,
+                  "lineSizeMultiplier": 2.9328125,
+                  "collapse-forces": false,
+                  "centerStrength": 0,
+                  "repelStrength": 17.7083333333333,
+                  "linkStrength": 1,
+                  "linkDistance": 150,
+                  "scale": 1,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Micro-services"
+            },
+            "group": "39bb92e99083f2dd"
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,8 +139,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "2125d76beaaa71e2",
@@ -112,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Micro-service architecture.md",
+                "file": "assets/class dgm uml.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +165,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Micro-service architecture"
+              "title": "Backlinks for class dgm uml"
             }
           },
           {
@@ -179,23 +222,31 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "c92f0f4fea138b73",
+  "active": "9037ea346dff15e3",
   "lastOpenFiles": [
+    "MICRO-SERVICES /Teleconference Service.md",
+    "MICRO-SERVICES /Micro-services.md",
+    "MICRO-SERVICES /Paramedic Service.md",
+    "MICRO-SERVICES /Doctor Service.md",
+    "MICRO-SERVICES /Authentication Service.md",
+    "MICRO-SERVICES /Patient Service.md",
+    "MICRO-SERVICES /API Gateway.md",
+    "**API Gateway**.md",
+    "Micro-service architecture.md",
+    "Primary Release Cycle.canvas",
+    "assets/class dgm uml.png",
+    "assets/usecase.png",
+    "assets/state.png",
+    "assets/interaction dgm.png",
+    "assets/deployment dgm.png",
+    "assets/Deployment dgm UML.md",
     "README.md",
     "Readme.md",
     "Release cycle.md",
-    "Micro-service architecture.md",
-    "Primary Release Cycle.canvas",
-    "assets/deployment dgm.png",
-    "assets/Deployment dgm UML.md",
     "assets/interaction uml.md",
-    "assets/state.png",
     "assets/State UML.md",
     "assets/UML diagram (Plant UML).md",
-    "assets/class dgm uml.png",
-    "assets/usecase.png",
     "assets/use case UML.md",
-    "assets/interaction dgm.png",
     "Requirements.md",
     "Max Ray KPIs.md",
     "Primary Requirements.md",
@@ -204,11 +255,6 @@
     "Other essential requirements.md",
     "System Admin and Super Admin Requirement.md",
     "Requirements for Admins and Super Admin.md",
-    "Requirements for Paramedics.md",
-    "Security and Compliance requirement.md",
-    "Requirements for Patients.md",
-    "Requirements for doctors.md",
-    "create a link.md",
-    "System infra requirement.md"
+    "Requirements for Paramedics.md"
   ]
 }

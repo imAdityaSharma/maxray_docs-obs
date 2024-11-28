@@ -1,5 +1,5 @@
 
-### **1. API Gateway**
+### **1. [[API Gateway]]**
 
 - **Responsibilities**:
     - Central entry point for all incoming client requests (mobile/web apps).
@@ -8,8 +8,7 @@
     - Implements rate limiting, request throttling, and monitoring.
 
 ---
-
-### **2. Authentication Service**
+### **2. [[Authentication Service]]**
 
 - **Responsibilities**:
     - Manages user login and authentication using SSO and OAuth2.0.
@@ -21,7 +20,7 @@
 
 ---
 
-### **3. Patient Service**
+### **3. [[Patient Service]]**
 
 - **Responsibilities**:
     - Manages patient profiles and personal data.
@@ -33,7 +32,7 @@
 
 ---
 
-### **4. Doctor Service**
+### **4. [[Doctor Service]]**
 
 - **Responsibilities**:
     - Manages doctor profiles, including specialization and availability.
@@ -45,7 +44,7 @@
 
 ---
 
-### **5. Paramedic Service**
+### **5. [[Paramedic Service]]**
 
 - **Responsibilities**:
     - Manages paramedic profiles, availability, and assigned tasks.
@@ -57,7 +56,7 @@
 
 ---
 
-### **6. Teleconference Service**
+### **6. [[Teleconference Service]]**
 
 - **Responsibilities**:
     - Facilitates secure video/audio consultations for patients, doctors, and paramedics.
@@ -117,7 +116,7 @@
 
 ---
 
-### **11. Analytics Service**
+### **11. Analytics Service** (conceptual for now)
 
 - **Responsibilities**:
     - Generates insights and reports on system performance, user behavior, and operational metrics.
@@ -167,19 +166,19 @@
 
 ### Summary of Services:
 
-| **Service Name**            | **Key Role**                                                    |
-| --------------------------- | --------------------------------------------------------------- |
-| API Gateway                 | Entry point for routing and load balancing.                     |
-| Authentication Service      | User login, token management, and security.                     |
-| Patient Service             | Patient data management and teleconsultation requests.          |
-| Doctor Service              | Doctor scheduling, consultations, and prescription handling.    |
-| Paramedic Service           | Task management, emergency response, and X-ray operations.      |
-| Teleconference Service      | Real-time video/audio consultation management.                  |
-| X-ray Service               | X-ray image capture, storage, and access.                       |
-| Admin Service               | System monitoring and user management.                          |
-| Audit and Logging Service   | Compliance tracking and event logging.                          |
-| Notification Service        | User notifications and reminders.                               |
-| Analytics Service           | Insights and reports on system and user behavior.               |
-| Emergency Request Service   | Emergency task handling and resolution.                         |
-| Prescription Service        | Prescription creation and management.                           |
-| Payment and Billing Service | Payment handling, billing summaries, and insurance integration. |
+|**Service Name**|**Key Role**|
+|---|---|
+|API Gateway|Entry point for routing and load balancing.|
+|Authentication Service|User login, token management, and security.|
+|Patient Service|Patient data management and teleconsultation requests.|
+|Doctor Service|Doctor scheduling, consultations, and prescription handling.|
+|Paramedic Service|Task management, emergency response, and X-ray operations.|
+|Teleconference Service|Real-time video/audio consultation management.|
+|X-ray Service|X-ray image capture, storage, and access.|
+|Admin Service|System monitoring and user management.|
+|Audit and Logging Service|Compliance tracking and event logging.|
+|Notification Service|User notifications and reminders.|
+|Analytics Service|Insights and reports on system and user behavior.|
+|Emergency Request Service|Emergency task handling and resolution.|
+|Prescription Service|Prescription creation and management.|
+|Payment and Billing Service|Payment handling, billing summaries, and insurance integration.|
