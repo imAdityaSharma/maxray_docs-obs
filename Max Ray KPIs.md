@@ -71,5 +71,3 @@ These KPIs ensure data privacy, compliance with regulations, and secure access a
 - **Patient Identification Accuracy**: Accuracy rate of identifying and linking patients with UPI ID and health records.
 - **Access Control Compliance**: Percentage of access attempts correctly authorized, preventing unauthorized access.
 
-
-### [[Requirements]]

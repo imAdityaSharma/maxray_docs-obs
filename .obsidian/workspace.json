@@ -6,82 +6,16 @@
       {
         "id": "c2c1f8d071cbd807",
         "type": "tabs",
-        "dimension": 66.1849710982659,
         "children": [
           {
             "id": "83af866fb44f826e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MICRO-SERVICES /Micro-services.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Micro-services"
-            }
-          },
-          {
-            "id": "9037ea346dff15e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Release cycle.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Release cycle"
-            },
-            "group": "39bb92e99083f2dd"
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "97487418fee53941",
-        "type": "tabs",
-        "dimension": 33.81502890173411,
-        "children": [
-          {
-            "id": "c6c6b276f56e0d08",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "Release cycle.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": true,
-                  "textFadeMultiplier": 0.5,
-                  "nodeSizeMultiplier": 1.325,
-                  "lineSizeMultiplier": 2.9328125,
-                  "collapse-forces": false,
-                  "centerStrength": 0,
-                  "repelStrength": 17.7083333333333,
-                  "linkStrength": 1,
-                  "linkDistance": 150,
-                  "scale": 1,
-                  "close": true
-                }
-              },
+              "type": "graph",
+              "state": {},
               "icon": "lucide-git-fork",
-              "title": "Graph of Release cycle"
-            },
-            "group": "39bb92e99083f2dd"
+              "title": "Graph view"
+            }
           }
         ]
       }
@@ -102,7 +36,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime"
+                "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -222,40 +156,42 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "416e8018370309c6",
+  "active": "83af866fb44f826e",
   "lastOpenFiles": [
-    "Canvases/Primary Release Cycle.canvas",
     "Release cycle.md",
+    "Micro-service architecture.md",
+    "README.md",
+    "Max Ray KPIs.md",
+    "Canvases/Primary Release Cycle.canvas",
+    "UMLs/Deployment dgm UML.md",
+    "UMLs/All UML diagrams.md",
+    "UMLs/UML diagram (Plant UML).md",
+    "MICRO-SERVICES /All Micro-services.md",
+    "UMLs/assets/deployment dgm.png",
+    "UMLs",
+    "Requirements/Other essential requirements.md",
+    "MICRO-SERVICES /Paramedic Service.md",
+    "Requirements/All Requirements.md",
     "Canvases",
-    "MICRO-SERVICES /Micro-services.md",
     "Requirements/Primary Requirements.md",
     "Requirements/Requirements for doctors.md",
     "Requirements/Requirements for Paramedics.md",
     "Requirements/Requirements for Patients.md",
-    "Requirements/Requirements.md",
     "Requirements/Secondary Requirements.md",
     "Requirements/Security and Compliance requirement.md",
     "Requirements/System Admin and Super Admin Requirement.md",
     "Requirements/System Infra Requirements.md",
     "Requirements",
     "MICRO-SERVICES /Teleconference Service.md",
-    "MICRO-SERVICES /Paramedic Service.md",
     "MICRO-SERVICES /Doctor Service.md",
     "MICRO-SERVICES /Authentication Service.md",
     "MICRO-SERVICES /Patient Service.md",
     "MICRO-SERVICES /API Gateway.md",
     "**API Gateway**.md",
-    "Micro-service architecture.md",
-    "assets/class dgm uml.png",
-    "assets/usecase.png",
-    "assets/state.png",
-    "assets/interaction dgm.png",
-    "assets/deployment dgm.png",
-    "assets/Deployment dgm UML.md",
-    "README.md",
-    "Readme.md",
-    "assets/interaction uml.md",
-    "assets/State UML.md",
-    "assets/UML diagram (Plant UML).md"
+    "UMLs/assets/class dgm uml.png",
+    "UMLs/assets/usecase.png",
+    "UMLs/assets/state.png",
+    "UMLs/assets/interaction dgm.png",
+    "Readme.md"
   ]
 }
