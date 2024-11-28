@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Requirements/OtherRequirements.md",
-                "mode": "preview",
+                "file": "Microservices/All Micro-services.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OtherRequirements"
+              "title": "All Micro-services"
             }
           }
         ]
@@ -162,10 +162,20 @@
   },
   "active": "83af866fb44f826e",
   "lastOpenFiles": [
+    "Microservices/PatientService.md",
+    "Microservices/TeleconferenceService.md",
+    "Microservices/All Micro-services.md",
+    "Microservices/ParamedicService.md",
+    "Microservices/DoctorService.md",
+    "Microservices/AuthenticationService.md",
+    "Microservices/APIGateway.md",
+    "MICRO-SERVICES/AuthenticationService.md",
+    "MICRO-SERVICES",
+    "ReleaseCycle.md",
+    "Requirements/OtherRequirements.md",
     "Requirements/SecondaryRequirements.md",
     "Requirements/AllRequirements.md",
     "Requirements/PrimaryRequirements.md",
-    "Requirements/OtherRequirements.md",
     "Requirements/RequirementsDoctors.md",
     "Requirements/SystemInfraRequirements.md",
     "Requirements/RequirementsPatients.md",
@@ -173,25 +183,17 @@
     "Requirements/Security&ComplianceRequirement.md",
     "Requirements/RequirementsParamedics.md",
     "README.md",
-    "ReleaseCycle.md",
     "MicroServiceArchitecture.md",
     "UMLs/use case UML.md",
     "UMLs/UMLdiagrams.md",
     "MaxRayKPIs.md",
     "MaxRay.md",
     "'Max.md",
-    "\"Max.md",
-    "Max.md",
     "Canvases/Primary Release Cycle.canvas",
-    "UMLs/Deployment dgm UML.md",
-    "UMLs/UML diagram (Plant UML).md",
-    "MICRO-SERVICES /All Micro-services.md",
     "UMLs/assets/deployment dgm.png",
     "UMLs",
-    "MICRO-SERVICES /Paramedic Service.md",
     "Canvases",
     "Requirements",
-    "MICRO-SERVICES /Teleconference Service.md",
     "UMLs/assets/class dgm uml.png",
     "UMLs/assets/usecase.png",
     "UMLs/assets/state.png",

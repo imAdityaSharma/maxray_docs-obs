@@ -1,5 +1,5 @@
 
-### **1. [[API Gateway]]**
+### 1. [**API Gateway**](/Microservices/APIGateway.md)
 
 - **Responsibilities**:
     - Central entry point for all incoming client requests (mobile/web apps).
@@ -8,7 +8,7 @@
     - Implements rate limiting, request throttling, and monitoring.
 
 ---
-### **2. [[Authentication Service]]**
+### 2. [**AuthenticationService**](/Microservices/AuthenticationService.md)
 
 - **Responsibilities**:
     - Manages user login and authentication using SSO and OAuth2.0.
@@ -20,7 +20,7 @@
 
 ---
 
-### **3. [[Patient Service]]**
+### 3. [**Patient Service**](/Microservices/PatientService.md)
 
 - **Responsibilities**:
     - Manages patient profiles and personal data.
@@ -32,7 +32,7 @@
 
 ---
 
-### **4. [[Doctor Service]]**
+### 4. [**DoctorService**](/Microservices/DoctorService.md)
 
 - **Responsibilities**:
     - Manages doctor profiles, including specialization and availability.
@@ -44,7 +44,7 @@
 
 ---
 
-### **5. [[Paramedic Service]]**
+### 5.[**Paramedic Service**](/Microservices/ParamedicService.md)
 
 - **Responsibilities**:
     - Manages paramedic profiles, availability, and assigned tasks.
@@ -56,7 +56,7 @@
 
 ---
 
-### **6. [[Teleconference Service]]**
+### 6. [**Teleconference Service**](/Microservices/TeleconferenceService.)
 
 - **Responsibilities**:
     - Facilitates secure video/audio consultations for patients, doctors, and paramedics.
