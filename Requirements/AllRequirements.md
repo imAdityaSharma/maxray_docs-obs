@@ -1,3 +1,3 @@
-### 1.[Primary Requirements](/Requirements/PrimaryRequirements)
-### 2.[SecondaryRequirements](/Requirements/SecondaryRequirements)
+### 1.[Primary Requirements](/Requirements/PrimaryRequirements.md)
+### 2.[SecondaryRequirements](/Requirements/SecondaryRequirements.md)
 

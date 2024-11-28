@@ -11,10 +11,14 @@
             "id": "83af866fb44f826e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Requirements/PrimaryRequirements.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PrimaryRequirements"
             }
           }
         ]
@@ -158,13 +162,13 @@
   },
   "active": "83af866fb44f826e",
   "lastOpenFiles": [
+    "Requirements/AllRequirements.md",
+    "Requirements/OtherRequirements.md",
     "Requirements/RequirementsDoctors.md",
     "Requirements/PrimaryRequirements.md",
-    "Requirements/AllRequirements.md",
     "Requirements/SystemInfraRequirements.md",
     "Requirements/SecondaryRequirements.md",
     "Requirements/RequirementsPatients.md",
-    "Requirements/OtherRequirements.md",
     "Requirements/SystemAdmin&SuperAdminRequirement.md",
     "Requirements/Security&ComplianceRequirement.md",
     "Requirements/RequirementsParamedics.md",
