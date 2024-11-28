@@ -1,3 +1,5 @@
+Diagram-> [Interaction](/UMLs/assets/Interaction.png)
+```Sql
 @startuml
 
 actor Patient
@@ -17,5 +19,5 @@ Doctor -> TS: Initiate Teleconsultation
 TS -> Patient: Connect Session
 
 @enduml
+```
 
-[[interaction dgm.png]]

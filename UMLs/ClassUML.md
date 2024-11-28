@@ -1,3 +1,5 @@
+Diagram -> [Class](/UMLs/assets/class.png)
+```
 @startuml
 
 class User {
@@ -101,5 +103,4 @@ Consultation --> Prescription : "1:1"
 Consultation --> XrayImage : "1:M"
 
 @enduml
-
-[[class dgm uml.png]]
+```

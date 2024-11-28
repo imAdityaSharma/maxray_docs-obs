@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Microservices/All Micro-services.md",
+                "file": "Requirements/SecondaryRequirements.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "All Micro-services"
+              "title": "SecondaryRequirements"
             }
           }
         ]
@@ -162,9 +162,25 @@
   },
   "active": "83af866fb44f826e",
   "lastOpenFiles": [
-    "Microservices/PatientService.md",
-    "Microservices/TeleconferenceService.md",
+    "Requirements/Security&ComplianceRequirement.md",
+    "Requirements/SecondaryRequirements.md",
+    "Requirements/RequirementsParamedics.md",
+    "Requirements/RequirementsDoctors.md",
+    "Requirements/PrimaryRequirements.md",
+    "Requirements/OtherRequirements.md",
+    "Requirements/AllRequirements.md",
+    "UMLs/ClassUML.md",
+    "UMLs/DeploymentUML.md",
+    "UMLs/InteractionUML.md",
+    "UMLs/StateUML.md",
+    "UMLs/UMLdiagrams.md",
+    "UMLs/UseCaseUML.md",
+    "README.md",
+    "UMLs/assets/class.png",
+    "Microservices/XRayService.md",
     "Microservices/All Micro-services.md",
+    "Microservices/TeleconferenceService.md",
+    "Microservices/PatientService.md",
     "Microservices/ParamedicService.md",
     "Microservices/DoctorService.md",
     "Microservices/AuthenticationService.md",
@@ -172,31 +188,15 @@
     "MICRO-SERVICES/AuthenticationService.md",
     "MICRO-SERVICES",
     "ReleaseCycle.md",
-    "Requirements/OtherRequirements.md",
-    "Requirements/SecondaryRequirements.md",
-    "Requirements/AllRequirements.md",
-    "Requirements/PrimaryRequirements.md",
-    "Requirements/RequirementsDoctors.md",
     "Requirements/SystemInfraRequirements.md",
     "Requirements/RequirementsPatients.md",
-    "Requirements/SystemAdmin&SuperAdminRequirement.md",
-    "Requirements/Security&ComplianceRequirement.md",
-    "Requirements/RequirementsParamedics.md",
-    "README.md",
-    "MicroServiceArchitecture.md",
-    "UMLs/use case UML.md",
-    "UMLs/UMLdiagrams.md",
-    "MaxRayKPIs.md",
-    "MaxRay.md",
-    "'Max.md",
     "Canvases/Primary Release Cycle.canvas",
-    "UMLs/assets/deployment dgm.png",
+    "UMLs/assets/deployment.png",
     "UMLs",
     "Canvases",
     "Requirements",
-    "UMLs/assets/class dgm uml.png",
     "UMLs/assets/usecase.png",
     "UMLs/assets/state.png",
-    "UMLs/assets/interaction dgm.png"
+    "UMLs/assets/Interaction.png"
   ]
 }

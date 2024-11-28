@@ -1,3 +1,6 @@
+diagram-> [State](/UMLs/assets/state.png)
+
+```SQL
 @startuml
 
 [*] --> Scheduled : Create Consultation
@@ -6,4 +9,3 @@ Scheduled --> Cancelled : Cancel Request
 Completed --> Archived : Archive Data
 
 @enduml
-[[state.png]]

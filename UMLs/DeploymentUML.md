@@ -1,3 +1,6 @@
+Diagram-> [Deployment](/UMLs/assets/deployment.png)
+
+``` Sql
 @startuml
 
 node "Client Device" {
@@ -39,5 +42,5 @@ node "Database Server" {
 "AdminService" --> "Database Server"
 
 @enduml
+```
 
-[[deployment dgm.png]].

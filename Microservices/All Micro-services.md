@@ -68,7 +68,7 @@
 
 ---
 
-### **7. X-ray Service**
+### 7. [**XRayService**](/Microservices/XRayService.md)
 
 - **Responsibilities**:
     - Connects and controls X-ray devices for paramedic use.

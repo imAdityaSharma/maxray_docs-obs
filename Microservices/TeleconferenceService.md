@@ -1,184 +1,85 @@
+### **Teleconference Service: Design, Responsibilities, and Implementation**
 
-### 1. [**API Gateway**](/Microservices/APIGateway.md)
-
-- **Responsibilities**:
-    - Central entry point for all incoming client requests (mobile/web apps).
-    - Routes requests to appropriate microservices.
-    - Handles authentication and authorization checks.
-    - Implements rate limiting, request throttling, and monitoring.
+The **Teleconference Service** facilitates real-time video and audio communication between patients, doctors, and paramedics during consultations or emergencies. It integrates with other services like Patient Service and Doctor Service to manage participant details and session statuses.
 
 ---
-### 2. [**AuthenticationService**](/Microservices/AuthenticationService.md)
-
-- **Responsibilities**:
-    - Manages user login and authentication using SSO and OAuth2.0.
-    - Issues and validates JWT (JSON Web Tokens) for secure session management.
-    - Handles password management (e.g., reset, encryption).
-- **Key Features**:
-    - Role-based access control (RBAC).
-    - Multi-factor authentication (MFA) for added security.
-
+### **Responsibilities**
+1. **Session Management**:
+    - Create, start, and terminate teleconference sessions.
+    - Track active and completed sessions.
+2. **Participant Management**:
+    - Add or remove participants dynamically (patients, doctors, paramedics).
+    - Manage participant roles and permissions during sessions.
+3. **Real-Time Communication**:
+    - Provide low-latency, secure video and audio communication.
+    - Support chat and file sharing for sending diagnostic data or prescriptions.
+4. **Integration with Other Services**:
+    - Collaborate with Patient Service and Doctor Service for session scheduling and status updates.
+    - Notify participants using the Notification Service.
+5. **Session Recording and Playback**:
+    - Enable optional session recording for compliance or reference.
+    - Provide playback links for authorized participants.
 ---
-
-### 3. [**Patient Service**](/Microservices/PatientService.md)
-
-- **Responsibilities**:
-    - Manages patient profiles and personal data.
-    - Tracks medical history, consultations, and insurance details.
-    - Processes teleconsultation requests and emergency alerts.
-- **Key Features**:
-    - Patient data storage and retrieval.
-    - Link with X-ray and diagnostic results.
-
+### **Technology Stack**
+#### **Core Communication Tools**:
+1. **WebRTC**: For peer-to-peer video/audio streaming.
+2. **Signaling Server**: To facilitate WebRTC connections using protocols like WebSocket.
+3. **TURN/STUN Servers**:
+    - Use **Coturn** as a TURN server for NAT traversal.
+4. **Media Server**:
+    - **Jitsi** or **Janus**: For group calls, recording, and media routing.
+#### **Backend**:
+- **Programming Language**: Node.js or Python for REST and signaling server.
+- **Database**: PostgreSQL for session metadata.
+- **Caching**: Redis for active session tracking.
+#### **Frontend SDKs**:
+- **WebRTC API**: For browser-based video calls.
+- **Flutter WebRTC Plugin**: For mobile applications.
 ---
+### **High-Level Architecture**
+```css
+[Client Devices (Web/Mobile)]
+   |
+   v
+[API Gateway] --> [Teleconference Service]
+                     |
+                     |---> [Signaling Server (WebSocket)]
+                     |---> [TURN/STUN Server (Coturn)]
+                     |---> [Media Server (Jitsi/Janus)]
+                     |---> [PostgreSQL (Session Data)]
+                     |---> [Notification Service]
+```
+### **API Endpoints**
 
-### 4. [**DoctorService**](/Microservices/DoctorService.md)
-
-- **Responsibilities**:
-    - Manages doctor profiles, including specialization and availability.
-    - Handles teleconsultation sessions and prescription generation.
-    - Provides access to patient histories and uploaded diagnostic images.
-- **Key Features**:
-    - Doctor scheduling and consultation workflows.
-    - Integration with teleconference and prescription services.
-
----
-
-### 5.[**Paramedic Service**](/Microservices/ParamedicService.md)
-
-- **Responsibilities**:
-    - Manages paramedic profiles, availability, and assigned tasks.
-    - Tracks paramedic locations for emergency responses.
-    - Interfaces with X-ray devices for image capture and uploads.
-- **Key Features**:
-    - Real-time task updates.
-    - Emergency handling and X-ray management.
-
----
-
-### 6. [**Teleconference Service**](/Microservices/TeleconferenceService.md)
-
-- **Responsibilities**:
-    - Facilitates secure video/audio consultations for patients, doctors, and paramedics.
-    - Supports multi-party teleconsultation sessions.
-    - Ensures minimal latency and high availability during video calls.
-- **Key Features**:
-    - Geofenced and non-geofenced video communication.
-    - Real-time messaging during consultations.
+|**Method**|**Endpoint**|**Description**|
+|---|---|---|
+|POST|`/sessions`|Create a new teleconference session.|
+|GET|`/sessions/<id>`|Retrieve details of an existing session.|
+|POST|`/sessions/<id>/participants`|Add a participant to a session.|
+|DELETE|`/sessions/<id>/participants`|Remove a participant from a session.|
+|POST|`/sessions/<id>/start`|Start the teleconference session.|
+|POST|`/sessions/<id>/end`|Terminate the session and update its status.|
 
 ---
 
-### **7. X-ray Service**
+### **Implementation**
 
-- **Responsibilities**:
-    - Connects and controls X-ray devices for paramedic use.
-    - Manages image uploads and storage.
-    - Links X-ray images with consultations for doctors to review.
-- **Key Features**:
-    - X-ray image processing and metadata management.
-    - Diagnostic image accessibility for doctors.
+#### **1. Project Structure**
 
----
-
-### **8. Admin Service**
-
-- **Responsibilities**:
-    - Provides tools for system management and monitoring.
-    - Manages user accounts, roles, and permissions.
-    - Configures platform settings and oversees system health.
-- **Key Features**:
-    - User role and permission management.
-    - System logs and monitoring dashboards.
-
----
-
-### **9. Audit and Logging Service**
-
-- **Responsibilities**:
-    - Tracks all critical user actions and system events.
-    - Logs access to sensitive data for compliance with regulations (HIPAA, GDPR).
-    - Provides immutable records for audits and debugging.
-- **Key Features**:
-    - Detailed action logs.
-    - Integration with external log aggregation tools (e.g., ELK Stack).
-
----
-
-### **10. Notification Service**
-
-- **Responsibilities**:
-    - Manages notifications for users (e.g., appointment reminders, task updates).
-    - Supports push notifications, SMS, and email alerts.
-    - Configures notification preferences for different user roles.
-- **Key Features**:
-    - Real-time notification delivery.
-    - Scheduled reminders for follow-ups and appointments.
-
----
-
-### **11. Analytics Service** (conceptual for now)
-
-- **Responsibilities**:
-    - Generates insights and reports on system performance, user behavior, and operational metrics.
-    - Provides dashboards for admins to track usage trends.
-    - Performs data-driven analysis to improve platform efficiency.
-- **Key Features**:
-    - Reports on consultation rates, system load, and device usage.
-    - Predictive analytics for peak times and resource planning.
-
----
-
-### **12. Emergency Request Service**
-
-- **Responsibilities**:
-    - Processes emergency alerts initiated by patients.
-    - Tracks status and resolution of emergency cases.
-    - Manages coordination between patients, paramedics, and doctors.
-- **Key Features**:
-    - Real-time paramedic assignment and location tracking.
-    - Emergency task logging and monitoring.
-
----
-
-### **13. Prescription Service**
-
-- **Responsibilities**:
-    - Manages prescriptions created during consultations.
-    - Links prescriptions to consultations and patient records.
-    - Allows doctors to edit and finalize prescriptions securely.
-- **Key Features**:
-    - Audio-to-text prescription generation.
-    - Prescription storage and retrieval for patients and doctors.
-
----
-
-### **14. Payment and Billing Service**
-
-- **Responsibilities**:
-    - Handles payment processing for teleconsultations, tests, and X-rays.
-    - Integrates with insurance systems for coverage verification.
-    - Provides billing summaries for users.
-- **Key Features**:
-    - Secure payment gateway integration.
-    - Detailed billing and transaction history.
-
----
-
-### Summary of Services:
-
-|**Service Name**|**Key Role**|
-|---|---|
-|API Gateway|Entry point for routing and load balancing.|
-|Authentication Service|User login, token management, and security.|
-|Patient Service|Patient data management and teleconsultation requests.|
-|Doctor Service|Doctor scheduling, consultations, and prescription handling.|
-|Paramedic Service|Task management, emergency response, and X-ray operations.|
-|Teleconference Service|Real-time video/audio consultation management.|
-|X-ray Service|X-ray image capture, storage, and access.|
-|Admin Service|System monitoring and user management.|
-|Audit and Logging Service|Compliance tracking and event logging.|
-|Notification Service|User notifications and reminders.|
-|Analytics Service|Insights and reports on system and user behavior.|
-|Emergency Request Service|Emergency task handling and resolution.|
-|Prescription Service|Prescription creation and management.|
-|Payment and Billing Service|Payment handling, billing summaries, and insurance integration.|
+Organize the project directory as follows:
+```css
+teleconference-service/
+├── app.js
+├── models/
+│   └── session.js
+├── routes/
+│   └── session.js
+├── signaling/
+│   └── signaling.js
+├── utils/
+│   ├── db.js
+│   └── redis.js
+├── requirements.txt
+├── Dockerfile
+└── coturn/ (TURN server configurations)
+```

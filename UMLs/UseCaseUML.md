@@ -1,3 +1,5 @@
+Diagram-> [usecase.png](/UMLs/assets/usecase.png)
+```SQL
 @startuml
 
 actor Patient
@@ -32,7 +34,5 @@ Paramedic --> UC8
 
 Admin --> UC9
 Admin --> UC10
-
 @enduml
-
-[[usecase.png]]
+```
