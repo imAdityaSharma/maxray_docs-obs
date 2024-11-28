@@ -39,7 +39,7 @@ The **API Gateway** acts as the central entry point for all client requests (mob
     - Use **Kong API Gateway** for its extensibility and robust plugin ecosystem.
     - If working with Kubernetes, consider **Traefik** for seamless integration.
     
-```UML
+```css
 [Client Devices (Mobile/Web)] 
    |
    v
