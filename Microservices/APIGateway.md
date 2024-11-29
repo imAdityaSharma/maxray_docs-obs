@@ -8,7 +8,6 @@ The **API Gateway** acts as the central entry point for all client requests (mob
 ### **Responsibilities**
 
 1. **Routing**:
-
     - Routes incoming client requests to the appropriate microservices based on the request path or headers.
     - Handles dynamic service discovery in case of auto-scaling or service updates.
 2. **Authentication and Authorization**:

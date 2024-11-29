@@ -7,23 +7,18 @@ The **Patient Service** is a microservice dedicated to managing patient-related 
 ### **Responsibilities**
 
 1. **Patient Profile Management**:
-    
     - Create, read, update, and delete (CRUD) patient profiles.
     - Manage patient-specific details like UPI ID, insurance, and contact information.
 2. **Medical History**:
-    
     - Store and retrieve patient medical history, including past consultations and test results.
     - Link medical records with X-ray images and prescriptions.
 3. **Teleconsultation Requests**:
-    
     - Allow patients to request teleconsultations with available doctors.
     - Track the status of consultations (e.g., Scheduled, Ongoing, Completed).
 4. **Emergency Alerts**:
-    
     - Process patient-generated emergency requests.
     - Notify the Paramedic Service for task assignments and tracking.
 5. **Interaction with Other Services**:
-    
     - Integrate with Doctor Service to fetch available doctors.
     - Communicate with Notification Service for appointment reminders.
     - Collaborate with X-ray Service for medical image access.

@@ -1,127 +1,111 @@
 
-### **Phase 1: Core Functionality and MVP Launch**
+### **Rollout Summary**
 
-**Objective**: Launch a Minimum Viable Product (MVP) with essential telehealth, X-ray, and emergency response features for patient care and interaction with doctors and paramedics.
+| **Phase** | **Focus**                          | **Key Deliverables**                                           | **Timeline** |     |
+| --------- | ---------------------------------- | -------------------------------------------------------------- | ------------ | --- |
+| Phase 1   | Core MVP Features                  | Consultation booking, basic notifications, authentication.     | 1-2 Months   |     |
+| Phase 2   | Teleconsultation and Prescriptions | Video calls, prescription management, X-ray storage.           | 1-2 Months   |     |
+| Phase 3   | Emergency and Paramedic Features   | Emergency handling, X-ray uploads, task tracking.              | 1-2 Months   |     |
+| Phase 4   | Admin and Analytics Tools          | Admin dashboard, system monitoring, compliance logging.        | TBD          |     |
+| Phase 5   | Payment and Advanced Analytics     | Payment processing, predictive insights.                       | TBD          |     |
+| Phase 6   | Continuous Improvement             | Recording, automated diagnostics, multi-channel notifications. | TBD          |     |
+### **Phase 1: Minimum Viable Product (MVP)**
 
-**Key Features**:
+**Objective**: Deploy core services essential for basic platform functionality.
 
-1. **User Registration and Authentication**:
-    - SSO implementation and role-based access (Patients, Doctors, Paramedics, Admins).
-2. **Teleconsultation Functionality**:
-    - Basic video/audio teleconsultation for patients and doctors.
-    - Real-time messaging within teleconsultation sessions.
-3. **Patient Record Management**:
-    - Patient profile creation and medical history access for doctors.
-    - Secure storage of patient information with encryption.
-4. **X-ray Device Management**:
-    - Basic X-ray device operation by paramedics, including capture and upload of images for doctor review.
-5. **Emergency Response and Paramedic Tracking**:
-    - Emergency request feature for patients.
-    - Real-time location tracking for paramedics.
-6. **Admin Dashboard for Basic User Management**:
-    - User registration management, access control, and limited activity monitoring.
-
-**Non-Functional Requirements**:
-- **Data Security**: Implement data encryption (AES-256 at rest, TLS 1.3 in transit).
-- **System Monitoring**: Set up basic system monitoring for uptime and performance tracking.
-
-**Timeline**: 1-2 Months
-
+|**Service**|**Key Features for Rollout**|
+|---|---|
+|**API Gateway**|Centralized routing, authentication forwarding, rate limiting.|
+|**Authentication Service**|User login, token-based authentication, role-based access control (RBAC).|
+|**Patient Service**|Patient profile management, consultation requests.|
+|**Doctor Service**|Doctor profile management, teleconsultation handling.|
+|**Notification Service**|Basic email and push notifications (e.g., consultation reminders).|
+**Timeline**: 1-2 Months  
+**Deliverables**:
+- Patients can book consultations.
+- Doctors can manage schedules and view basic patient information.
+- Users receive email notifications for consultations.
 ---
-
 ### **Phase 2: Enhanced Patient and Doctor Experience**
 
-**Objective**: Improve user experience for doctors, paramedics, and patients by adding additional functionalities and enhancing system security and reliability.
+**Objective**: Introduce advanced features to improve usability and efficiency.
 
-**Key Features**:
+| **Service**                | **Key Features for Rollout**                                                     |
+| -------------------------- | -------------------------------------------------------------------------------- |
+| **Teleconference Service** | Real-time video/audio communication, session scheduling, participant management. |
+| **Prescription Service**   | Prescription creation and storage, integration with consultations.               |
+| **X-ray Service**          | X-ray upload and storage, linking X-rays with consultations.                     |
+| **Notification Service**   | Enhanced notifications (e.g., task updates for paramedics).                      |
 
-1. **Enhanced Teleconsultation**:
-    
-    - Add multi-party teleconsultation capability (e.g., paramedic + patient + doctor).
-    - In-app messaging outside of active teleconsultations.
-2. **Prescription and Test Recommendations**:
-    
-    - Enable doctors to prescribe tests and medications within the app, including audio-to-text functionality.
-    - Allow doctors to recommend additional tests based on consultation findings.
-3. **System Health Checks and Monitoring**:
-    
-    - Expand admin capabilities with real-time system monitoring, performance reports, and proactive alerts for critical issues.
-4. **Emergency and Incident Reporting**:
-    
-    - Incident logging for paramedics for documentation of emergency cases and actions taken.
-    - Basic issue tracking for admin-reported issues.
+**Timeline**: 1-2 Months  
+**Deliverables**:
+- Patients can attend virtual consultations via video calls.
+- Doctors can generate prescriptions and view diagnostic images.
+- Paramedics are notified of X-ray-related tasks.
+---
+### **Phase 3: Emergency Handling and Advanced Workflows**
 
-**Non-Functional Requirements**:
+**Objective**: Enable emergency management and support paramedic workflows.
 
-- **Role-Based Access Control (RBAC)**: Implement more granular access control based on user roles.
-- **Session Timeout**: Auto-logout after a period of inactivity for enhanced security.
-- **Compliance**: Begin implementing GDPR compliance if EU users are anticipated.
+| **Service**                   | **Key Features for Rollout**                                        |
+| ----------------------------- | ------------------------------------------------------------------- |
+| **Emergency Request Service** | Emergency request creation, paramedic assignment, task tracking.    |
+| **Paramedic Service**         | Paramedic profile management, X-ray operations, emergency handling. |
+| **Audit and Logging Service** | Track critical actions for compliance and debugging.                |
 
-**Timeline**: 2 Months
+**Timeline**: 1-2 Months  
+**Deliverables**:
+- Patients can raise emergency requests.
+- Paramedics handle assigned tasks, including X-ray uploads.
+- Admins access basic audit logs for key actions.
+---
+# future advance features
+### **Phase 4: Admin and System Management**
+**Objective**: Introduce admin functionality for platform monitoring and management.
+
+| **Service**                   | **Key Features for Rollout**                                   |
+| ----------------------------- | -------------------------------------------------------------- |
+| **Admin Service**             | User role management, system monitoring, compliance tools.     |
+| **Analytics Service**         | Basic usage analytics and reports (e.g., consultation trends). |
+| **Audit and Logging Service** | Enhanced logging with immutable records for compliance audits. |
+
+**Timeline**: 2–3 Months  
+**Deliverables**:
+- Admins manage user accounts and roles.
+- System usage reports are generated for insights.
+- Immutable logs ensure regulatory compliance.
 
 ---
 
-### **Phase 3: Data Management and Compliance Features**
+### **Phase 5: Financial and Operational Features**
 
-**Objective**: Enhance data handling, reporting, and compliance measures to ensure robust data management and meet regulatory standards.
+**Objective**: Deploy services to handle payments, billing, and advanced analytics.
 
-**Key Features**:
-1. **Data Backup and Recovery**:
-2. **Data Retention and Deletion Policies**:
-3. **Compliance and Audit Logs**:
-4. **Advanced Analytics and Reporting**:
+|**Service**|**Key Features for Rollout**|
+|---|---|
+|**Payment and Billing Service**|Secure payment processing, billing summaries, and insurance integration.|
+|**Analytics Service**|Advanced analytics (e.g., predictive insights, resource planning).|
 
----
+**Timeline**: 2–3 Months  
+**Deliverables**:
 
-### **Phase 4: User Experience Enhancements and Interoperability**
-
-**Objective**: Introduce user experience improvements, accessibility features, and integrations with external systems.
-
-**Key Features**:
-
-1. **Accessibility and Usability Enhancements**:
-2. **Insurance and Payment Integration**:
-3. **Device Compatibility**:
-4. **User Notifications and Alerts**:
-
-**Non-Functional Requirements**:
-- **Localization**: Implement language options for multilingual support.
-- **Scalability**: Auto-scaling capabilities to handle increased user load, including peak times.
+- Patients can pay for consultations and tests securely.
+- Admins access advanced analytics for resource optimization.
 
 ---
 
-### **Phase 5: Advanced Analytics, AI, and Automation**
+### **Phase 6: Continuous Improvement and Advanced Features**
 
-**Objective**: Leverage analytics, AI-driven insights, and automation to improve service quality and operational efficiency.
+**Objective**: Refine the platform and introduce optional advanced features.
 
-**Key Features**:
-1. **Predictive Analytics and Insights**:
-2. **AI-Assisted Diagnostic Support**:
-    - AI-based tools for analyzing X-ray images or detecting anomalies, assisting doctors with faster diagnoses.
-3. **Automation of Repetitive Tasks**:
-    - Automate user notifications, billing reminders, and periodic reporting.
-4. **Third-Party Integration Expansion**:
+|**Service**|**Key Features for Rollout**|
+|---|---|
+|**Teleconference Service**|Session recording and playback.|
+|**Notification Service**|Multi-channel notifications (SMS, push, email).|
+|**X-ray Service**|Automated image processing and report generation.|
 
----
+**Timeline**: Ongoing  
+**Deliverables**:
 
-### **Phase 6: Continuous Improvement and Feature Refinement**
-
-**Objective**: Fine-tune existing features based on user feedback and implement any remaining secondary features to further enhance the user experience.
-
-**Key Features**:
-
-1. **User Feedback and Iterative Updates**:
-    
-    - Collect user feedback to refine workflows, interfaces, and overall usability.
-    - Make adjustments to analytics, reporting, and alerting features based on admin and user feedback.
-2. **Complete Localization and Customization**:
-    
-    - Add further localization and customization options for global audiences.
-3. **Extended Compliance Features**:
-    
-    - Complete any final compliance adjustments to meet new regulatory requirements.
-
-**Timeline**: Ongoing (Continuous)
-
-
-[[Primary Release Cycle.canvas|Primary Release Cycle]]
+- Enhance user experience with additional features.
+- Optimize backend processes for performance and scalability.
