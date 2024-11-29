@@ -13,13 +13,14 @@
 
 **Objective**: Deploy core services essential for basic platform functionality.
 
-|**Service**|**Key Features for Rollout**|
-|---|---|
-|**API Gateway**|Centralized routing, authentication forwarding, rate limiting.|
-|**Authentication Service**|User login, token-based authentication, role-based access control (RBAC).|
-|**Patient Service**|Patient profile management, consultation requests.|
-|**Doctor Service**|Doctor profile management, teleconsultation handling.|
-|**Notification Service**|Basic email and push notifications (e.g., consultation reminders).|
+| **Service**                | **Key Features for Rollout**                                              |
+| -------------------------- | ------------------------------------------------------------------------- |
+| **API Gateway**            | Centralized routing, authentication forwarding, rate limiting.            |
+| **Authentication Service** | User login, token-based authentication, role-based access control (RBAC). |
+| **Patient Service**        | Patient profile management, consultation requests.                        |
+| **Doctor Service**         | Doctor profile management, teleconsultation handling.                     |
+| **Notification Service**   | Basic email and push notifications (e.g., consultation reminders).        |
+
 **Timeline**: 1-2 Months  
 **Deliverables**:
 - Patients can book consultations.
