@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "2125d76beaaa71e2",
@@ -112,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ReleaseCycle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from ReleaseCycle"
             }
           },
           {
@@ -141,13 +143,23 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "46ce05496a72e89f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,11 +169,14 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "publish:Publish changes...": false
+      "publish:Publish changes...": false,
+      "obsidian-git:Open Git source control": false,
+      "audio-recorder:Start/stop recording": false
     }
   },
   "active": "83af866fb44f826e",
   "lastOpenFiles": [
+    "Recording 20241130134105.m4a",
     "Microservices/APIGateway.md",
     "Microservices/MicroServices.md",
     "Microservices/PatientService.md",
@@ -189,7 +204,6 @@
     "MICRO-SERVICES",
     "ReleaseCycle.md",
     "Requirements/SystemInfraRequirements.md",
-    "Requirements/RequirementsPatients.md",
     "Canvases/Primary Release Cycle.canvas",
     "UMLs/assets/deployment.png",
     "UMLs",
