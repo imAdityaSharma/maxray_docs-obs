@@ -56,7 +56,7 @@
 
 ---
 
-### 6. [**Teleconference Service**](/Microservices/TeleconferenceService.)
+### 6. [**Teleconference Service**](/Microservices/TeleconferenceService)
 
 - **Responsibilities**:
     - Facilitates secure video/audio consultations for patients, doctors, and paramedics.
