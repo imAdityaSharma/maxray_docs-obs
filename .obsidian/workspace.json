@@ -11,13 +11,57 @@
             "id": "83af866fb44f826e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "image",
+              "state": {
+                "file": "Canvases/TechStack assets/Kong.png"
+              },
+              "icon": "lucide-image",
+              "title": "Kong"
+            }
+          },
+          {
+            "id": "4aac8a471f4e0c80",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Canvases/TechStack assets/Docker.png"
+              },
+              "icon": "lucide-image",
+              "title": "Docker"
+            }
+          },
+          {
+            "id": "ec712e76d893d672",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Canvases/TechStack assets/Kong.png"
+              },
+              "icon": "lucide-image",
+              "title": "Kong"
+            }
+          },
+          {
+            "id": "2d9e85b43d730807",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Canvases/tech stack.canvas",
+                "viewState": {
+                  "x": -970.2516427084582,
+                  "y": 104.29664601343512,
+                  "zoom": -1.4501109906608192
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "tech stack"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -73,7 +117,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "2125d76beaaa71e2",
@@ -108,11 +153,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Canvases/tech stack.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from tech stack"
             }
           },
           {
@@ -169,9 +215,21 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "83af866fb44f826e",
+  "active": "2d9e85b43d730807",
   "lastOpenFiles": [
+    "Canvases/TechStack assets/Redis.png",
+    "Canvases/TechStack assets/Screenshot From 2024-11-30 22-16-42.png",
+    "Canvases/TechStack assets/Kafka.png",
+    "Canvases/TechStack assets/Screenshot From 2024-11-30 22-15-00.png",
+    "Canvases/TechStack assets/Flutter.png",
+    "Canvases/TechStack assets/Supabase.png",
     "Canvases/tech stack.canvas",
+    "Canvases/TechStack assets/REST.png",
+    "Canvases/TechStack assets/Screenshot From 2024-11-30 22-05-25.png",
+    "Canvases/TechStack assets/Docker.png",
+    "Canvases/TechStack assets/Kong.png",
+    "Canvases/TechStack assets/ReactJS.png",
+    "Canvases/TechStack assets",
     "ReleaseCycle.md",
     "Microservices/TeleconferenceService.md",
     "Microservices/MicroServices.md",
@@ -193,7 +251,6 @@
     "UMLs/StateUML.md",
     "UMLs/UMLdiagrams.md",
     "UMLs/UseCaseUML.md",
-    "UMLs/assets/class.png",
     "Microservices/XRayService.md",
     "Microservices/ParamedicService.md",
     "Microservices/DoctorService.md",
@@ -201,12 +258,8 @@
     "MICRO-SERVICES/AuthenticationService.md",
     "MICRO-SERVICES",
     "Canvases/Primary Release Cycle.canvas",
-    "UMLs/assets/deployment.png",
     "UMLs",
     "Canvases",
-    "Requirements",
-    "UMLs/assets/usecase.png",
-    "UMLs/assets/state.png",
-    "UMLs/assets/Interaction.png"
+    "Requirements"
   ]
 }
