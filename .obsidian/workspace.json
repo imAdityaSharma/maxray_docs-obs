@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "2125d76beaaa71e2",
@@ -174,9 +173,10 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "83af866fb44f826e",
+  "active": "416e8018370309c6",
   "lastOpenFiles": [
     "Recording 20241130134105.m4a",
+    "ReleaseCycle.md",
     "Microservices/APIGateway.md",
     "Microservices/MicroServices.md",
     "Microservices/PatientService.md",
@@ -202,7 +202,6 @@
     "Microservices/AuthenticationService.md",
     "MICRO-SERVICES/AuthenticationService.md",
     "MICRO-SERVICES",
-    "ReleaseCycle.md",
     "Requirements/SystemInfraRequirements.md",
     "Canvases/Primary Release Cycle.canvas",
     "UMLs/assets/deployment.png",
