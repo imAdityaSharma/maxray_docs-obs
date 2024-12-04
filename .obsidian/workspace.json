@@ -66,12 +66,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KPIs.md",
+                "file": "MilestoneKPIs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "KPIs"
+              "title": "MilestoneKPIs"
             }
           }
         ],
@@ -232,7 +232,7 @@
   "active": "1a0cdcc275339d43",
   "lastOpenFiles": [
     "Canvases/tech stack.canvas",
-    "KPIs.md",
+    "MilestoneKPIs.md",
     "Canvases/TechStack assets/Redis.png",
     "Canvases/TechStack assets/Screenshot From 2024-11-30 22-16-42.png",
     "Canvases/TechStack assets/Kafka.png",
