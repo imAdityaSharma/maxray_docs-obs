@@ -1,10 +1,10 @@
 {
 	"nodes":[
 		{"id":"7a2bc8f496f7eb8f","type":"file","file":"Canvases/TechStack assets/Supabase.png","x":-2560,"y":-8,"width":240,"height":151},
-		{"id":"53a195273bef5b82","type":"file","file":"Canvases/TechStack assets/Flutter.png","x":-2560,"y":270,"width":320,"height":150},
-		{"id":"7d112cc970aed704","x":-2084,"y":-446,"width":259,"height":132,"type":"text","text":"# Messeging and Notification"},
-		{"id":"4786cfe09333eb08","x":-2420,"y":-514,"width":200,"height":100,"type":"file","file":"Canvases/TechStack assets/Kafka.png"},
-		{"id":"1b37556b0069de09","x":-2420,"y":-352,"width":200,"height":100,"type":"file","file":"Canvases/TechStack assets/Redis.png"},
+		{"id":"53a195273bef5b82","type":"file","file":"Canvases/TechStack assets/Flutter.png","x":-2560,"y":270,"width":319,"height":150},
+		{"id":"7d112cc970aed704","type":"text","text":"# Messeging and Notification","x":-2084,"y":-446,"width":259,"height":132},
+		{"id":"4786cfe09333eb08","type":"file","file":"Canvases/TechStack assets/Kafka.png","x":-2420,"y":-514,"width":200,"height":100},
+		{"id":"1b37556b0069de09","type":"file","file":"Canvases/TechStack assets/Redis.png","x":-2420,"y":-352,"width":200,"height":100},
 		{"id":"573f610476d1033c","type":"file","file":"Canvases/TechStack assets/ObjectStore.png","x":-25,"y":-529,"width":301,"height":200},
 		{"id":"4806fbc7dfde4cc1","type":"file","file":"Canvases/TechStack assets/PostgreSqlDB.png","x":-25,"y":-275,"width":160,"height":146},
 		{"id":"b6bdfb95987bfade","type":"file","file":"Canvases/TechStack assets/PyFlask.png","x":-25,"y":88,"width":400,"height":225},
@@ -14,7 +14,7 @@
 		{"id":"53e35ed2b28f6b2f","type":"text","text":"# Data Base and Object Storage","x":-520,"y":-354,"width":300,"height":79,"color":"1"},
 		{"id":"dc1bc1e207f50f77","type":"file","file":"Canvases/TechStack assets/Docker.png","x":-1227,"y":-380,"width":400,"height":226},
 		{"id":"1e00b4ab65026f1c","type":"text","text":"# For Android dev","x":-2084,"y":23,"width":250,"height":90},
-		{"id":"4a6b279d6f9195f5","x":-1718,"y":-252,"width":250,"height":113,"type":"text","text":"# will add in future "},
+		{"id":"4a6b279d6f9195f5","type":"text","text":"# will add in future ","x":-1718,"y":-252,"width":250,"height":113},
 		{"id":"076c0f67c96842d4","type":"text","text":"# Containerisation","x":-1187,"y":-619,"width":320,"height":90},
 		{"id":"553153de8395e34a","type":"text","text":"# API gateway","x":-1169,"y":-63,"width":285,"height":55},
 		{"id":"58b7d060a275e755","type":"file","file":"Canvases/TechStack assets/Kong.png","x":-1226,"y":88,"width":400,"height":213},
