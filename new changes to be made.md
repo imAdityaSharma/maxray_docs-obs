@@ -18,7 +18,7 @@ needs to read about regulatory norms (DISHA and THE PERSONAL DATA PROTECTION BIL
 
 ## Important considerations for more req. changes from following changes.
 - About [DISHA: Digital Information Security in Healthcare Act of 2018](https://blog.ipleaders.in/insight-on-digital-information-security-in-healthcare-act-2018/)
-- [personal data protection bill 2018 ](https://www.meity.gov.in/writereaddata/files/Personal_Data_Protection_Bill,2018.pdf) : chapter II to chapter VIII
+- [Personal Data Protection Bill 2018 ](https://www.meity.gov.in/writereaddata/files/Personal_Data_Protection_Bill,2018.pdf) : chapter II to chapter VIII
 
 ## functional requirement to handle data breach->
 ![[Pasted image 20241213170438.png]]
