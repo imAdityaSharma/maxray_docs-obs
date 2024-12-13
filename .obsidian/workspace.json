@@ -202,9 +202,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2d73fddb7ec95ef3",
+  "active": "416e8018370309c6",
   "lastOpenFiles": [
-    "Pasted image 20241213170438.png",
+    "assets",
+    "assets/Pasted image 20241213170438.png",
     "Canvases/tech stack.canvas",
     "new changes to be made.md",
     "Canvases/TechStack assets/Kong.png",
@@ -217,7 +218,6 @@
     "Canvases/TechStack assets/Flutter.png",
     "Canvases/TechStack assets/Supabase.png",
     "Canvases/TechStack assets/REST.png",
-    "Canvases/TechStack assets/Screenshot From 2024-11-30 22-05-25.png",
     "Canvases/TechStack assets",
     "ReleaseCycle.md",
     "Microservices/TeleconferenceService.md",
