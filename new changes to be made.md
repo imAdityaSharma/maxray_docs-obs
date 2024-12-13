@@ -9,7 +9,7 @@
 needs to read about regulatory norms (DISHA and THE PERSONAL DATA PROTECTION BILL, 2018) for important requirement changes in accordance with ASPICE and ISO26262 standards.
 
 
-![alt text](DISHA.png)
+![](assets/DISHA.png)
 
 ## current functional changes under consideration->
 1.  give option to users to download, migrate and permanently delete their data from our server.
@@ -21,4 +21,4 @@ needs to read about regulatory norms (DISHA and THE PERSONAL DATA PROTECTION BIL
 - [Personal Data Protection Bill 2018 ](https://www.meity.gov.in/writereaddata/files/Personal_Data_Protection_Bill,2018.pdf) : chapter II to chapter VIII
 
 ## functional requirement to handle data breach->
-![[Pasted image 20241213170438.png]]
+![](assets/DataSecurity&breach.png)
