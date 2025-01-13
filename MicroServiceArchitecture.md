@@ -8,7 +8,6 @@
     - Implements rate limiting, request throttling, and monitoring.
 
 ---
-
 ### **2. Authentication Service**
 
 - **Responsibilities**:
@@ -20,7 +19,6 @@
     - Multi-factor authentication (MFA) for added security.
 
 ---
-
 ### **3. Patient Service**
 
 - **Responsibilities**:
@@ -32,7 +30,6 @@
     - Link with X-ray and diagnostic results.
 
 ---
-
 ### **4. Doctor Service**
 
 - **Responsibilities**:
@@ -44,7 +41,6 @@
     - Integration with teleconference and prescription services.
 
 ---
-
 ### **5. Paramedic Service**
 
 - **Responsibilities**:
@@ -56,7 +52,6 @@
     - Emergency handling and X-ray management.
 
 ---
-
 ### **6. Teleconference Service**
 
 - **Responsibilities**:
@@ -68,7 +63,6 @@
     - Real-time messaging during consultations.
 
 ---
-
 ### **7. X-ray Service**
 
 - **Responsibilities**:
@@ -80,7 +74,6 @@
     - Diagnostic image accessibility for doctors.
 
 ---
-
 ### **8. Admin Service**
 
 - **Responsibilities**:
@@ -92,7 +85,6 @@
     - System logs and monitoring dashboards.
 
 ---
-
 ### **9. Audit and Logging Service**
 
 - **Responsibilities**:
@@ -104,7 +96,6 @@
     - Integration with external log aggregation tools (e.g., ELK Stack).
 
 ---
-
 ### **10. Notification Service**
 
 - **Responsibilities**:
@@ -116,7 +107,6 @@
     - Scheduled reminders for follow-ups and appointments.
 
 ---
-
 ### **11. Analytics Service**
 
 - **Responsibilities**:
@@ -128,7 +118,6 @@
     - Predictive analytics for peak times and resource planning.
 
 ---
-
 ### **12. Emergency Request Service**
 
 - **Responsibilities**:
@@ -140,7 +129,6 @@
     - Emergency task logging and monitoring.
 
 ---
-
 ### **13. Prescription Service**
 
 - **Responsibilities**:
@@ -152,7 +140,6 @@
     - Prescription storage and retrieval for patients and doctors.
 
 ---
-
 ### **14. Payment and Billing Service**
 
 - **Responsibilities**:
@@ -164,7 +151,6 @@
     - Detailed billing and transaction history.
 
 ---
-
 ### Summary of Services:
 
 | **Service Name**            | **Key Role**                                                    |

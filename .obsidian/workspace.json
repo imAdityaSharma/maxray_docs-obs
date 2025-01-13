@@ -15,8 +15,8 @@
               "state": {
                 "file": "Canvases/tech stack.canvas",
                 "viewState": {
-                  "x": -970.2516427084582,
-                  "y": 104.29664601343512,
+                  "x": -383.9729988590951,
+                  "y": 285.63976758154143,
                   "zoom": -1.4501109906608192
                 }
               },
@@ -42,14 +42,75 @@
             "id": "1a0cdcc275339d43",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Microservices/XRayService.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "XRayService"
+            }
+          },
+          {
+            "id": "48557cdad802e444",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notification Service.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Notification Service"
+            }
+          },
+          {
+            "id": "131e2236b2b37bb3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Emergency Request Service.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Emergency Request Service"
+            }
+          },
+          {
+            "id": "b6b16263edebdbf2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "new changes to be made.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "new changes to be made"
+            }
+          },
+          {
+            "id": "903f33036077adca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ISO26262.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ISO26262"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -202,12 +263,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "416e8018370309c6",
+  "active": "131e2236b2b37bb3",
   "lastOpenFiles": [
+    "Notification Service.md",
+    "Emergency Request Service.md",
+    "Microservices/XRayService.md",
+    "Microservices/MicroServices.md",
+    "Microservices/PatientService.md",
+    "Microservices/APIGateway.md",
+    "Microservices/AuthenticationService.md",
+    "Microservices/TeleconferenceService.md",
+    "Microservices/ParamedicService.md",
+    "Microservices/DoctorService.md",
+    "new changes to be made.md",
+    "tempCodeRunnerFile.python",
+    "possible changes needed in services.md",
+    "Canvases/tech stack.canvas",
+    "ISO26262.md",
+    "MicroServiceArchitecture.md",
+    "MaxRayKPIs.md",
+    "Requirements/RequirementsDoctors.md",
+    "Requirements/PrimaryRequirements.md",
     "assets",
     "assets/DataSecurity&breach.png",
-    "Canvases/tech stack.canvas",
-    "new changes to be made.md",
     "Canvases/TechStack assets/Kong.png",
     "Canvases/TechStack assets/Docker.png",
     "MilestoneKPIs.md",
@@ -220,29 +298,14 @@
     "Canvases/TechStack assets/REST.png",
     "Canvases/TechStack assets",
     "ReleaseCycle.md",
-    "Microservices/TeleconferenceService.md",
-    "Microservices/MicroServices.md",
     "Microservices/TeleconferenceService..md",
     "README.md",
     "Recording 20241130134105.m4a",
-    "Microservices/APIGateway.md",
-    "Microservices/PatientService.md",
     "Requirements/SecondaryRequirements.md",
     "Requirements/Security&ComplianceRequirement.md",
     "Requirements/RequirementsParamedics.md",
-    "Requirements/RequirementsDoctors.md",
-    "Requirements/PrimaryRequirements.md",
     "Requirements/OtherRequirements.md",
     "Requirements/AllRequirements.md",
-    "UMLs/ClassUML.md",
-    "UMLs/DeploymentUML.md",
-    "UMLs/InteractionUML.md",
-    "UMLs/StateUML.md",
-    "UMLs/UMLdiagrams.md",
-    "UMLs/UseCaseUML.md",
-    "Microservices/XRayService.md",
-    "Microservices/ParamedicService.md",
-    "Microservices/DoctorService.md",
     "MICRO-SERVICES",
     "Canvases/Primary Release Cycle.canvas",
     "UMLs",

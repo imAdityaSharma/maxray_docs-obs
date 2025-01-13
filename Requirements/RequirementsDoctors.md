@@ -14,16 +14,13 @@
     - **Chat and Messaging**: Doctors can communicate with patients or paramedics via in-app messaging before, during, or after consultations.
     - **Multi-Party Teleconference**: Doctors can include paramedics or other specialists in a teleconsultation as needed.
 4. **Prescription and Test Recommendation**:
-    
     - **Prescription Creation**: Doctors can create prescriptions via audio-to-text or manually through the app.
     - **Recommend Tests**: Doctors can recommend specific tests, including X-rays, which can be noted directly in the patient’s file.
     - **Prescription Verification**: Doctors can verify or edit their prescriptions before finalizing to ensure accuracy.
 5. **Emergency Handling**:
-    
     - **Respond to Emergency Requests**: Doctors should be able to receive notifications about emergency cases requiring immediate attention.
     - **Assign Paramedic**: If necessary, doctors can request paramedic support and coordinate directly for on-site services.
 6. **Medical Record Access**:
-    
     - **View and Download X-rays/Images**: Doctors can view and download medical images like X-rays for closer examination.
     - **Upload Diagnostic Notes**: After reviewing an X-ray, doctors can add notes or diagnoses directly in the patient’s file.
 

@@ -5,7 +5,6 @@
 		{"id":"7d112cc970aed704","type":"text","text":"# Messeging and Notification","x":-2084,"y":-446,"width":259,"height":132},
 		{"id":"4786cfe09333eb08","type":"file","file":"Canvases/TechStack assets/Kafka.png","x":-2420,"y":-514,"width":200,"height":100},
 		{"id":"1b37556b0069de09","type":"file","file":"Canvases/TechStack assets/Redis.png","x":-2420,"y":-352,"width":200,"height":100},
-		{"id":"573f610476d1033c","type":"file","file":"Canvases/TechStack assets/ObjectStore.png","x":-25,"y":-529,"width":301,"height":200},
 		{"id":"4806fbc7dfde4cc1","type":"file","file":"Canvases/TechStack assets/PostgreSqlDB.png","x":-25,"y":-275,"width":160,"height":146},
 		{"id":"b6bdfb95987bfade","type":"file","file":"Canvases/TechStack assets/PyFlask.png","x":-25,"y":88,"width":400,"height":225},
 		{"id":"a86fc7dbcef54fa4","type":"file","file":"Canvases/TechStack assets/ReactJS.png","x":-24,"y":420,"width":399,"height":210},
@@ -18,7 +17,8 @@
 		{"id":"076c0f67c96842d4","type":"text","text":"# Containerisation","x":-1187,"y":-619,"width":320,"height":90},
 		{"id":"553153de8395e34a","type":"text","text":"# API gateway","x":-1169,"y":-63,"width":285,"height":55},
 		{"id":"58b7d060a275e755","type":"file","file":"Canvases/TechStack assets/Kong.png","x":-1226,"y":88,"width":400,"height":213},
-		{"id":"118b87b9b67c38cc","type":"file","file":"Canvases/TechStack assets/REST.png","x":-1185,"y":397,"width":319,"height":196}
+		{"id":"118b87b9b67c38cc","type":"file","file":"Canvases/TechStack assets/REST.png","x":-1185,"y":397,"width":319,"height":196},
+		{"id":"573f610476d1033c","type":"file","file":"Canvases/TechStack assets/ObjectStore.png","x":-25,"y":-580,"width":301,"height":200}
 	],
 	"edges":[
 		{"id":"e67a95848f8ddbd1","fromNode":"53e35ed2b28f6b2f","fromSide":"right","toNode":"573f610476d1033c","toSide":"left"},
