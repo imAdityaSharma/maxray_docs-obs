@@ -58,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notification Service.md",
+                "file": "Microservices/Notification Service.md",
                 "mode": "source",
                 "source": false
               },
@@ -72,7 +72,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Emergency Request Service.md",
+                "file": "Microservices/Emergency Request Service.md",
                 "mode": "source",
                 "source": false
               },
@@ -108,9 +108,61 @@
               "icon": "lucide-file",
               "title": "ISO26262"
             }
+          },
+          {
+            "id": "35b2f2fb43d007d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Authservice/Authentication workflow.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Authentication workflow"
+            }
+          },
+          {
+            "id": "5acfa32abec28522",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "f4e777aa894b3c67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Authservice/Authentication workflow.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Authentication workflow"
+            }
+          },
+          {
+            "id": "ab7616a1d0c7283b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Authservice/Registration Workflow.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Registration Workflow"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -238,8 +290,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -263,10 +315,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "131e2236b2b37bb3",
+  "active": "ab7616a1d0c7283b",
   "lastOpenFiles": [
-    "Notification Service.md",
-    "Emergency Request Service.md",
+    "Authservice/AuthDatabase design.md",
+    "Authservice/Authentication workflow.md",
+    "Authservice/Registration Workflow.md",
+    "Authservice/SSO MFA auth.md",
+    "DataBase design/User Database data reqs.md",
+    "DataBase design/Users database  design.md",
+    "DataBase design",
+    "Authservice",
+    "Microservices/Emergency Request Service.md",
+    "ISO26262.md",
+    "MaxRayKPIs.md",
+    "MicroServiceArchitecture.md",
+    "Microservices/Notification Service.md",
     "Microservices/XRayService.md",
     "Microservices/MicroServices.md",
     "Microservices/PatientService.md",
@@ -279,9 +342,6 @@
     "tempCodeRunnerFile.python",
     "possible changes needed in services.md",
     "Canvases/tech stack.canvas",
-    "ISO26262.md",
-    "MicroServiceArchitecture.md",
-    "MaxRayKPIs.md",
     "Requirements/RequirementsDoctors.md",
     "Requirements/PrimaryRequirements.md",
     "assets",
@@ -299,13 +359,7 @@
     "Canvases/TechStack assets",
     "ReleaseCycle.md",
     "Microservices/TeleconferenceService..md",
-    "README.md",
     "Recording 20241130134105.m4a",
-    "Requirements/SecondaryRequirements.md",
-    "Requirements/Security&ComplianceRequirement.md",
-    "Requirements/RequirementsParamedics.md",
-    "Requirements/OtherRequirements.md",
-    "Requirements/AllRequirements.md",
     "MICRO-SERVICES",
     "Canvases/Primary Release Cycle.canvas",
     "UMLs",
